@@ -1,0 +1,33 @@
+#First\ Name{
+    border:2px black solid;
+    font-family: "Times New Roman";
+
+}
+#Last\ Name{
+    border: 2px black solid;
+    font-family: "Times New Roman";
+
+}
+#Email{
+    border-style: groove;
+    border: 2px black solid;
+    font-family: "Times New Roman";
+    text-align: center;
+
+}
+#DOB{
+    border: 2px black solid;
+    font-family: "Times New Roman";
+
+}
+#Gender{
+    border-style: wave;
+    font-family: "Times New Roman";
+    border: 2px black;
+
+}
+#Password{
+    border: 2px black solid;
+    font-family: "Times New Roman";
+
+}

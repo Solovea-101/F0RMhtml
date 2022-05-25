@@ -1,0 +1,14 @@
+.fruits{
+    border: 2px solid black;
+    text-align: center;
+    background-color: aqua;
+}
+.vapes{
+    border: 4px dotted black;
+    background-color: burlywood;}
+.cars{
+    border: 3px; solid-color: cornflowerblue;
+    text-align: center;
+    padding: 15px;
+    margin: 1px;
+}

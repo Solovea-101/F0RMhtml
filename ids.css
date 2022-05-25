@@ -1,0 +1,14 @@
+#JAcinta{
+    border: 4px solid blue;
+    font-family: "Times New Roman";
+    font-size: larger;
+}
+#DONALD{
+    border: 2px dotted black;
+    font-style: oblique;
+    color: chocolate;
+}
+#Gloria{
+    color:mediumpurple;
+    border: 3px dot-dot-dash;
+}

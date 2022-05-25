@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <style>
+    h2{
+      font-family: "Times New Roman";
+      padding: 10px;
+      text-align: center;
+background-color: bisque;
+    }
+    form{
+      border:4px black double;
+      padding: 10px;
+      text-align: center;
+      background-color: burlywood;
+    }
+  </style>
+  <link rel="stylesheet" href="form.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+</head>
+<body>
+<p style="background-color: burlywood"></p>
+<h2>Student Registration Form</h2>
+<form action="">
+  <label for="First Name">First Name</label><br>
+  <input type="text"id="First Name"placeholder="Enter First Name"><br
+  <label for="Last Name">Last Name</label><br>
+  <input type="text"id="Last Name"placeholder="Enter Last Name"><br>
+  <label for="Email">Email Address</label><br>
+  <input type="email"id="Email"placeholder="Enter Valid Email"><br>
+  <label for="DOB">Date of Birth</label><br>
+  <input type="date"id="DOB"><br>
+    <label for="Gender">Gender</label><br>
+    <input type="radio"id="Gender">
+    <label for="Male">Male</label>
+    <input type="radio"id="Male" name="Gender">
+    <label for="Female">Female</label><br>
+  <label for="Course">Course</label><br>
+  <select name="Course" id="Course">
+    <option value="Android">Android</option>
+    <option value="MIT">MIT</option>
+    <option value="Javascript">Javascript</option>
+    <option value="Python">Python</option>
+    <option value="Computer Science">Computer Science</option>
+    <option value="BBIT">BBIT</option>
+    <option value="Technology And Commerce">Technology And Commerce</option>
+  </select><br>
+  <label for="Password">Password</label><br>
+  <input type="password"id="Password"placeholder="Input Passsword"><br>
+  <label for="Upload an Image">Upload An Image</label>
+  <input type="file"id="Upload an Image"><br>
+  <h4>Choose The Time To Attend Classes</h4>
+  <label for="Morning">Morning</label>
+  <input type="checkbox"id="Morning">
+  <label for="Afternoon">Afternoon</label>
+  <input type="checkbox"id="Afternoon">
+  <label for="Evening">Evening</label>
+  <input type="checkbox"id="Evening"><br>
+
+  <input type="submit" value="Register!"
+</form>
+
+</body>
+</html>
